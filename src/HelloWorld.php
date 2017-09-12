@@ -5,7 +5,7 @@ namespace In2it\HelloWorld;
 
 class HelloWorld
 {
-     public function sayHello()
+     public function sayHello(): string
      {
          return 'Hello World!';
      }
